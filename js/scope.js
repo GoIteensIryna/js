@@ -13,9 +13,9 @@
 // let b = 10
 
 // b +=3
-// console.log("gloval scope", b)
+// // console.log("gloval scope", b)
 
-// if("hello") {
+// // if("hello") {
 //     b +=5
 //     console.log("block scope", b)
 // }
@@ -27,20 +27,20 @@
 //     console.log(scopeName);
 // };
 
-// console.log("I'm global scope");
+// // console.log("I'm global scope");
 // console.log(scopeName);
 
 // ==================================================
 
-// const global = 'global';2
+// const global = 'global';
 // if (true) {
 //   const blockA = 'block A';
 
 //   console.log("first block scope: ",global); 
 //   console.log("first block scope: ", blockA); 
 
-//   console.log("first block scope: ",blockB); 
-//   console.log("first block scope: ",blockC); 
+// //   console.log("first block scope: ",blockB); 
+// //   console.log("first block scope: ",blockC); 
 
 //   if (true) {
 //     const blockB = 'block B';
@@ -69,3 +69,16 @@
 // console.log("global scope: ",blockA);
 // console.log("global scope: ",blockB); 
 // console.log("global scope: ",blockC); 
+
+// ==================================
+
+// let a = 10;
+// a +=10
+
+// if(10>5){
+// let a = 50
+// a +=5
+// console.log("block scope",a)
+// }
+
+// console.log("global scope",a)
