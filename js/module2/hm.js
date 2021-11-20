@@ -1,22 +1,33 @@
-// for (let i = 0; i <= 100; i+=3){
-//     if () {
-//         //vasha umova
-//         if () {
-//             continue
-//         }
-//     }
-// }
+for (let i = 0; i <= 100; i+=3){
+    if (true) {
+        //vasha umova
+        if (true) {
+            continue
+        }
+    }
+}
 
-let input;
-let sum = 0;
-let total = 0;
+// let input;
+// let sum = 0;
+// let total = 0;
 
-do{
+// do{
 
-input=prompt("Введіть число");
+// input=prompt("Введіть число");
 
-sum+=Number(input);
+// sum+=Number(input);
 
-}while(input !== null)
+// }while(input !== null)
 
-console.log(sum)
+// console.log(sum)
+
+// split()
+// join()
+// indexOf() 
+// includes()
+// push(), pop(), shift(), unshift()
+// slice()
+// splice()
+// concat()
+
+"Hello World! Where is your homework?"
