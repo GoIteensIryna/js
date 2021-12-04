@@ -131,35 +131,26 @@
 // Object.values(obj)
 // Object.entries(obj)
 
-// const book = {
-//     name: "Geralt of Rivia",
-//     role: 'wizard',
-//     weapon: "sword",
-//     author: 'Andrzej Sapkowski',
-//     isFilming: true
-// }
+const book = {
+    name: "Geralt of Rivia",
+    role: 'wizard',
+    weapon: "sword",
+    author: 'Andrzej Sapkowski',
+    isFilming: true
+}
 
-// const bookKeys = Object.keys(book)
-// // console.log(bookKeys)
+const bookKeys = Object.keys(book)
 
-// const bookValues = Object.values(book)
-// // console.log(bookValues)
 
-// const bookEntries = Object.entries(book)
-// console.log(bookEntries)
+for (let element of bookKeys) {
+    console.log(element, book[element])
+}
 
-// console.log(bookKeys);
-// console.log(bookKeys[1])
+const countProps = function (obj) {
+  console.log(obj)
+};
 
-// console.log(bookValues)
-// console.log(bookValues[0])
-
-// book['name']
-// book["role"]
-
-// for (let element of bookKeys) {
-//     console.log(element, book[element])
-// }
+console.log(countProps(book)); 
 
 // for (let item of bookEntries) {
 //     const key = item[0]
@@ -167,24 +158,24 @@
 //     console.log(`${key}: ${value}`)
 // }
 
-const salaryList = {
-    "Mongo": 100,
-    "Poly": 200,
-    "Deny": 150,
-    "Yen": 400
-}
+// const salaryList = {
+//     "Mongo": 100,
+//     "Poly": 200,
+//     "Deny": 150,
+//     "Yen": 400
+// }
 
 
-const values = Object.values(salaryList)
-console.log(values)
+// const values = Object.values(salaryList)
+// console.log(values)
 
-let sum = 0;
-for (let value of values) {
-    sum += value
-    // values.length
+// let sum = 0;
+// for (let value of values) {
+//     sum += value
+//     // values.length
 
-}
-console.log(sum/values.length)
+// }
+// console.log(sum/values.length)
 
 // // ==========SPREAD REST================
 
