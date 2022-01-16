@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -14,16 +15,24 @@
             line-height: 1.5;
         }
     </style>
+    <link rel="stylesheet" href="./css/style.css">
+
 </head>
 <body>
-  
-<ul>
-    <li><a href="dom.html">DOM</a></li>
-    <li><a href="events.html">Events</a></li>
-    <li><a href="form.html">FORM</a></li>
-    <li><a href="inputevents.html">Input</a></li>
-    <li><a href="key.html">Key</a></li>
-</ul>
 
+<div class="form">
+<label for=""> Your full name
+    <p class="error_js visually-hidden">Insert surname and name </p>
+    <input type="text" class="input_js">
+</label>
+<label class="label_js"> 
+    <input type="checkbox" name="confirm" class="checkbox_js" >
+   Accept rules
+</label>
+<button type="button" class="button_js" disabled>Send email</button>
+</div>
+
+
+<script src="./js/module7/input.js"></script>
 </body>
 </html>

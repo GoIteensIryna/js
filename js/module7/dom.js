@@ -1,7 +1,7 @@
-// import firstArr from './dom2.js';
-// import { secondArr } from './dom2.js';
-// console.log("firstArr", firstArr)
-// console.log("secondArr", secondArr )
+import firstArr from './dom2.js';
+import { secondArr } from './dom2.js';
+console.log("firstArr", firstArr)
+console.log("secondArr", secondArr )
 
 
 // const h1Element = document.querySelector('h1')
