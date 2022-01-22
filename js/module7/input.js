@@ -31,10 +31,10 @@ console.dir(checkboxRef)
 
 // =================================
 
-checkboxRef.addEventListener('change', event => {
-    console.log(event.target.checked)
-    buttonRef.disabled = !event.target.checked
-})
+// checkboxRef.addEventListener('change', event => {
+//     console.log(event.target.checked)
+//     buttonRef.disabled = !event.target.checked
+// })
 
 
 // chackboxRef.addEventListener('change', (event) => {
